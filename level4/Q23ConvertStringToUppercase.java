@@ -2,7 +2,7 @@ package level4;
 
 import java.util.function.Function;
 
-public class Q23_ConvertStringToUppercase {
+public class Q23ConvertStringToUppercase {
     public static void main(String[] args) {
         Function<String,String> toUpperCase = String::toUpperCase;
         Function<String,String> append = s->s+"!";

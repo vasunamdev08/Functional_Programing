@@ -1,4 +1,4 @@
-package level5.q30_OrderProcessing;
+package level5.q30OrderProcessing;
 
 class Order {
     private String customerName;

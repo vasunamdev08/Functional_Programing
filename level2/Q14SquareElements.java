@@ -2,7 +2,7 @@ package level2;
 
 import java.util.List;
 
-public class Q14_SquareElements {
+public class Q14SquareElements {
     public static void main(String[] args) {
         // List of integers
         List<Integer> list = List.of(1, 2, 3, 4, 5);

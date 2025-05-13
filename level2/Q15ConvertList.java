@@ -1,12 +1,10 @@
-package level3;
+package level2;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
-public class Q18_JoinString {
+public class Q15ConvertList {
     public static void main(String[] args) {
         List<String> list = List.of("hello", "world", "java", "functional", "programming");
-        String join = String.join(",", list);
-        System.out.println(join);
+        list.stream().map(String::length).forEach(x->System.out.print(x+", "));
     }
 }

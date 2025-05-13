@@ -1,6 +1,6 @@
 package level1;
 
-public class Q7_RunnableLambda {
+public class Q7RunnableLambda {
     public static void main(String[] args) {
         // Using a lambda expression to create a Runnable
         Runnable runnable = () -> System.out.println("Hello Functional Java");

@@ -3,7 +3,7 @@ package level1;
 import java.util.function.BiFunction;
 import static java.lang.Integer.sum;
 
-public class Q6_SumBifunction {
+public class Q6SumBifunction {
     public static void main(String[] args) {
         // Example usage
         int result = sum(5, 10);
